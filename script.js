@@ -10,38 +10,39 @@
 // // same name se use delaere hon hskata h 
 
 
-// // reassigment
+// // // reassigment
 
-// a = 34;
-
-
-// // redeclaration
-// let a = 12;
-// let b = 34; // error
+// // a = 34;
 
 
-// temprol dead zone 
+// // // redeclaration
+// // let a = 12;
+// // let b = 34; // error
 
-// utna area ki js ko  pata h ki variable ko declare karne se pehle use karne pe  error hoga
 
-console.log(s); // error
-let s= 12;
+// // temprol dead zone 
 
-// hositing impact per type 
- // ek variable jab js meh banta h to booo doo hiso meh tut jata h ek hissa  declere part upar chala jata hai and intisilation part niche reh jata h 
+// // utna area ki js ko  pata h ki variable ko declare karne se pehle use karne pe  error hoga
+
+// console.log(s); // error
+// let s= 12;
+
+// // hositing impact per type 
+//  // ek variable jab js meh banta h to booo doo hiso meh tut jata h ek hissa  declere part upar chala jata hai and intisilation part niche reh jata h 
  
  
- let g =  undefined; // error nahi hoga but value undefined hoga
+//  let g =  undefined; // error nahi hoga but value undefined hoga
  
- g = 12; // intisilation part 
+//  g = 12; // intisilation part 
  
- let g = 12;
+//  let g = 12;
 
 
 
- var --> hoist -> undefined
- let --> hoist -> temprol dead zone (refracne error)
- const --> hoist -> temprol dead zone (refracne error)
+//  var --> hoist -> undefined
+//  let --> hoist -> temprol dead zone (refracne error)
+//  const --> hoist -> temprol dead zone (refracne error)
+
 
 
 
