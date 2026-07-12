@@ -44,6 +44,44 @@
 //  const --> hoist -> temprol dead zone (refracne error)
 
 
+// data types in js
+// 1. primitive data type --> aisi sari value jo copy karne pe tumhe ek real copy mil jaye 
+//  string , number , boolen , nul etc 
+// 2. non primitive data types --> inko copy karne par real copy nhi milegi but apko refrance milega parent ka 
+// array obect function etc
+
+// array type in js
+
+let a = [1,2,3,4,5,6,7,8,9,10];
+let b = a; // refrance copy
+
+
+
+// object type in js
+
+let c = {
+    name: "sahil",
+    age: 23,
+    city: "delhi"
+},
+{
+    name: "abhishek",
+    age: 24,
+    city: "delhi"   
+} 
+
+// function type in js
+
+function add(a,b){
+    return a+b;
+}
+
+
+
+// dymamic typing in js
+// js meh variable/ data ka type change ho sakta h  kyuki yaha perr dymatic typing h 
+// let a = 12; // number
+
 
 
 
