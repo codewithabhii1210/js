@@ -59,7 +59,7 @@ let b = a; // refrance copy
 
 // object type in js
 
-let c = {
+let details = [{
     name: "sahil",
     age: 23,
     city: "delhi"
@@ -67,8 +67,10 @@ let c = {
 {
     name: "abhishek",
     age: 24,
-    city: "delhi"   
-} 
+    city: "delhi"
+}
+]
+
 
 // function type in js
 
@@ -82,8 +84,6 @@ function add(a,b){
 // js meh variable/ data ka type change ho sakta h  kyuki yaha perr dymatic typing h 
 // let a = 12; // number
 
-
-prgnrieds
 
 
 
